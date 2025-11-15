@@ -10,7 +10,7 @@ export const Navigation = ({
     activeTab = 'dashboard',
 }: NavigationProps) => {
     return (
-        <nav className="flex flex-row justify-around px-5 my-2 ">
+        <nav className="flex flex-row justify-around shadow-[0_0_30px] shadow-amber-50/20 px-5 py-1 ">
             <DashboardLink isActive={activeTab === 'dashboard'} />
             <AddTaskButton />
             <TasksLink isActive={activeTab === 'tasks'} />

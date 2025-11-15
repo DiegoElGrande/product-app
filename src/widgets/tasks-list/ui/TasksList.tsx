@@ -1,7 +1,3 @@
-'use client';
-
-import React from 'react';
-
 interface Task {
     id: string;
     title: string;
@@ -121,7 +117,9 @@ export const TasksList = () => {
                                                 task.priority,
                                             )}`}
                                         >
-                                            {getPriorityLabel(task.priority)}
+                                            {getPriorityLabel(
+                                                task.priority,
+                                            )}
                                         </span>
                                     </div>
                                 )}
@@ -144,4 +142,3 @@ export const TasksList = () => {
         </main>
     );
 };
-

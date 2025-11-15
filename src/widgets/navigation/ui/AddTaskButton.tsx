@@ -18,9 +18,9 @@ export const AddTaskButton = () => {
         <>
             <button
                 onClick={handleOpenModal}
-                className="size-15 flex flex-col items-center justify-center ring-1 rounded-2xl ring-amber-50 active:bg-amber-50 active:ring-0 "
+                className="relative z-10 -translate-y-5 size-13 flex flex-col items-center justify-center ring-1 rounded-xl bg-white"
             >
-                <div className="text-white">
+                <div className="text-black">
                     <svg
                         width="24"
                         height="24"
